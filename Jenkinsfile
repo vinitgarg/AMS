@@ -16,4 +16,5 @@ tools{
                                         bat 'mvn package'
                                      }
                                     }
-   }
+          }
+}
