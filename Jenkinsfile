@@ -20,8 +20,8 @@ tools{
                                          {
                               steps {
                                     withSonarQubeEnv('Sonarqube') {
-                                         bat 'mvn sonar:sonar -Dsonar.projectKey=AMS -Dsonar.host.url=http://localhost:9000 -Dsonar.login=f4506da609474503ad7933b075bb4067d5a8ca0b'
-                                           }
+                                         bat 'mvn sonar:sonar'
+                                    }
                                       }
                                    }
                
