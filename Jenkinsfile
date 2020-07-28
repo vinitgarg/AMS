@@ -19,9 +19,9 @@ tools{
                 stage(' SonarQube analysis')
                                          {
                               steps {
-                                    withSonarQubeEnv('Sonarqube') {
+                                  
                                          bat 'mvn sonar:sonar'
-                                    }
+                                    
                                       }
                                    }
                
