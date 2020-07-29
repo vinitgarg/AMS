@@ -9,7 +9,7 @@ tools{
               
               stage('Build Stage') {
                                steps{
-                                        bat 'mvn package'
+                                        bat 'mvn clean install'
                                      }
                                     }
                 stage(' SonarQube analysis')
